@@ -1,3 +1,0 @@
-[submodule "client"] 
-   path=client
-   url = git://https://github.com/hendhelal/client.git
