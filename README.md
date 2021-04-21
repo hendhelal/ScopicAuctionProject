@@ -22,6 +22,8 @@ to install required packages
 ### `node app.js`
 Runs the app in the development mode.
 
+### `in another terminal` 
+
 ### `starting frontend "CLIENT" `
 
 ###  `cd client` 
