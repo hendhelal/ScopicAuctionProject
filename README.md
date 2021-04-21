@@ -1,5 +1,17 @@
 # ScopicAuctionProject
 
+# Getting Started with Create React App
+
+## Available Scripts
+
+In the project directory, you can run:
+### `npm init`
+to install required packages
+
+### `npm start`
+Runs the app in the development mode.
+
+
 install nodeJs if not available
 https://nodejs.org/en/download/
 
@@ -17,7 +29,7 @@ cd client
 1-npm install
 2-npm start
 
-http://localhost:3000/
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 login Credentials:
 
