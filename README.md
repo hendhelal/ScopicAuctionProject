@@ -19,7 +19,7 @@ change directory to server forlder
 ### `npm init`
 to install required packages
 
-### `npm start`
+### `npm app.js`
 Runs the app in the development mode.
 
 ### `starting frontend "CLIENT" `
