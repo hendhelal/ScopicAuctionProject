@@ -30,7 +30,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### `login Credentials:`
 
-for admins:
+### `for admins:`
 username: admin1
 password: admin2
 
@@ -38,7 +38,7 @@ username: admin2
 password: admin
 
 
-for regulars:
+### `for regulars:`
 username: user1
 password: user2
 
