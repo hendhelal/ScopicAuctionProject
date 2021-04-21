@@ -49,6 +49,14 @@ password: user2
 username: user2
 password: user
 
+### `Available Pages`
+
+/admin => for admins only [contains all the CRUD operations] with sorting data
+/ =>  home page [available items will be shown with filtering and sorting]
+/items:id => details for items
+/login
+
+
 
 
 
