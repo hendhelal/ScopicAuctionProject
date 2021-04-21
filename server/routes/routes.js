@@ -19,11 +19,19 @@ router.post(
     [
         check('name')
             .not()
-            .isEmpty(),
-        check('description').isLength({ min: 5 }),
+            .isEmpty()
+            .isLength({ min: 6 })
+            .isString(),
+        check('description')
+        .isLength({ min: 10 })
+        .not()
+        .isEmpty()
+        .isString(),
         check('price')
             .not()
-            .isEmpty(),
+            .isEmpty()
+            .isNumeric(),
+            
         check('endDate')
             .not()
             .isEmpty()
@@ -35,15 +43,14 @@ router.patch(
     '/:id',
     [
         check('name')
-            .not()
-            .isEmpty(),
-        check('description').isLength({ min: 5 }),
-        check('price')
-            .not()
-            .isEmpty(),
-        check('endDate')
-            .not()
-            .isEmpty()
+        .not()
+        .isEmpty(),
+    check('description').isLength({ min: 10 }),
+    check('endDate')
+        .not()
+        .isEmpty()
+            
+          
 
     ],
     itemsController.updateItem

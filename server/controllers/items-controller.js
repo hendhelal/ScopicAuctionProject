@@ -105,7 +105,7 @@ const updateItem = async (req, res, next) => {
 
   const { name, description,endDate,price } = req.body;
   const itemId = req.params.id;
-
+ 
   let item;
   try {
     item = await Item.findById(itemId);
@@ -121,8 +121,8 @@ const updateItem = async (req, res, next) => {
 
   item.name = name;
   item.description = description;
-  item.price=price;
-  item.endDate=endDate;
+   item.endDate=endDate;
+   item.price=price;
 
   try {
     await item.save();
