@@ -6,11 +6,13 @@
 ### `install nodeJs if not available`
 https://nodejs.org/en/download/
 
-### `clone project locally by cloning the prject`
-git clone --recursive  https://github.com/hendhelal/ScopicAuctionProject in cmd
+### `clone project locally by cloning the project`
+git clone --recursive  https://github.com/hendhelal/ScopicAuctionProject 
 
 ### `starting backend "SERVER" `
-cd server
+###  `cd server`
+change directory to server forlder
+
 ### `npm init`
 to install required packages
 
@@ -19,7 +21,9 @@ Runs the app in the development mode.
 
 ### `starting frontend "CLIENT" `
 
-cd client
+###  `cd client` 
+change directory to client forlder
+
 ### `npm init`
 to install required packages
 
