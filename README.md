@@ -6,8 +6,11 @@
 ### `install nodeJs if not available`
 https://nodejs.org/en/download/
 
-### `clone project locally by cloning the project`
+### `clone project locally by cloning the project in the required path `
 git clone --recursive  https://github.com/hendhelal/ScopicAuctionProject 
+
+### `cd  scopicauctionproject `
+change directory to project forlder
 
 ### `starting backend "SERVER" `
 ###  `cd server`
